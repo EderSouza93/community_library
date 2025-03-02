@@ -1,5 +1,6 @@
 import express from "express";
 import "dotenv/config";
+import "./src/service/cron.service.js";
 import userRoutes from "./src/routes/user.routes.js";
 import bookRoutes from "./src/routes/book.routes.js";
 import loanRoutes from "./src/routes/loan.routes.js";
